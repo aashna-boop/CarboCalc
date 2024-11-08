@@ -53,6 +53,28 @@ int main() {
     } else {
         carbon_footprint *= 0.8;  // Low CO2 region
     }
+ printf("Your estimated monthly carbon footprint is: %.2f kg CO2\n", carbon_footprint);
+
+    // tips for reducstion
+    if (carbon_footprint < 500) {
+        printf("Your CO2 emissions are Low. Great job! Keep it up by:\n");
+        printf("- Reducing energy usage further by turning off lights and appliances when not needed.\n");
+        printf("- Continuing to opt for sustainable transportation like biking or walking.\n");
+    } else if (carbon_footprint < 1000) {
+        printf("Your CO2 emissions are in the Medium range. Consider these tips:\n");
+        printf("- Try to reduce energy usage by using energy-efficient appliances.\n");
+        printf("- Consider reducing car usage by using public transit or carpooling.\n");
+        printf("- Reduce food waste and consider a more plant-based diet.\n");
+    } else {
+        printf("Your CO2 emissions are High. Here are some steps to reduce them:\n");
+        printf("- Consider using renewable energy sources like solar panels if possible.\n");
+        printf("- Limit car usage by choosing public transport or biking when possible.\n");
+        printf("- Reduce meat consumption and focus on a more plant-based diet.\n");
+        printf("- Recycle more and try to minimize your waste generation.\n");
+    }
+
+    return 0;
+}
 
 
 
