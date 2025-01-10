@@ -19,10 +19,3 @@
 - **Deployment**: Vultur-based hosting with serverless inference for deep dives.  
 
 ---
-
-## Installation  
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/carbocalc.git
-   cd carbocalc
